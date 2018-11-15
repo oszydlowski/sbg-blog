@@ -1,0 +1,23 @@
+{
+    "name": "clean_module",
+    "steps": [
+        {
+            "template": "connector.stencil",
+            "file_name": "{{module_name}}Connector.swift",
+            "group": "{{connectors_path}}",
+            "target": "{{main_target}}"
+        },
+        {
+            "template": "presenter.stencil",
+            "file_name": "{{module_name}}Presenter.swift",
+            "group": "{{presenters_path}}",
+            "target": "{{main_target}}"
+        },
+        {
+            "template": "view_controller.stencil",
+            "file_name": "{{module_name}}ViewController.swift",
+            "group": "{{view_controllers_path}}",
+            "target": "{{main_target}}"
+        }
+    ]
+}

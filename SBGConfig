@@ -1,0 +1,6 @@
+{
+    "main_target": "SomeTargetName",
+    "connectors_path": "SomeTargetName/Connectors",
+    "presenters_path": "SomeTargetName/Presenters",
+    "view_controllers_path": "SomeTargetName/Controllers"
+}

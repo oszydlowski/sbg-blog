@@ -1,0 +1,3 @@
+final class {{module_name}}Connector: BaseConnector {
+
+}

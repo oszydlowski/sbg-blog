@@ -1,0 +1,10 @@
+import UIKit
+
+protocol {{module_name}}View: class { }
+
+final class {{module_name}}ViewController: BaseViewController, {{module_name}}View {
+
+    fileprivate var _presenter: {{module_name}}Presenter {
+        return presenter as! {{module_name}}Presenter
+    }
+}
