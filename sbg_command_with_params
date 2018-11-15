@@ -1,0 +1,1 @@
+SBG clean_module --module_name SomeModuleName --main_target SomeOtherTargetName --connectors_path SomeNewPath
