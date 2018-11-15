@@ -1,0 +1,10 @@
+final class {{module_name}}Presenter {
+
+    private let connector: BaseConnector
+    private weak var view: {{module_name}}View?
+
+    init(connector: BaseConnector, view: {{module_name}}View) {
+        self.connector = connector
+        self.view = view
+    }
+}
